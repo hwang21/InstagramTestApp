@@ -35,8 +35,7 @@ public class MainActivity extends Activity {
 		gridView = (GridView) findViewById(R.id.image_grid_view);
 
 		request = new RequestImagesTask(
-				//"https://api.instagram.com/v1/tags/selfie/media/recent?access_token=45793650.f59def8.22bb0e16b35946ab91918843ac320b91",
-				"https://api.instagram.com/v1/tags/selfie/media/recent/?client_id=5f9365e9f1054aa991726d731c65aa02",
+		"https://api.instagram.com/v1/tags/selfie/media/recent/?client_id=5f9365e9f1054aa991726d731c65aa02",
 				this);
 		request.execute();
 
